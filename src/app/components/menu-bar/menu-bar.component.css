@@ -44,3 +44,13 @@
 .menu-bar__itens > ul > li > a:hover {
     color: #1E90FF;
 }
+
+@media screen and (max-width: 768px) {
+    .menu-bar__container {
+        gap: 0.5rem;
+    }
+
+    .menu-bar__itens {
+        margin-left: 0.5rem;
+    }
+}
